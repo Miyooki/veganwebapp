@@ -464,9 +464,18 @@
     <script>
         new WOW().init();
     </script>
-window.localStorage["list"] = JSON.stringify([0,0,0,0,0,0,0,0,0])
+
 <script type="text/javascript">
-//
+
+var something = (function() {
+    var executed = false;
+    return function() {
+        if (!executed) {
+            executed = true;
+            window.localStorage["list"] = JSON.stringify([0,0,0,0,0,0,0,0,0])
+        }
+    };
+})();
 function clickEvent(button_name, index){
     var array = JSON.parse(window.localStorage["list"])
 	if (button_name.slice(-1) == "n"){
