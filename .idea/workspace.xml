@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef1d537-6a0a-483f-a8ba-d56592b7ce73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/templates/button_args.js" afterPath="$PROJECT_DIR$/webapp/templates/button_args.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/templates/index.html" afterPath="$PROJECT_DIR$/webapp/templates/index.html" />
     </list>
     <ignored path="veganwebapp.iws" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="125" column="133" selection-start-line="125" selection-start-column="133" selection-end-line="125" selection-end-column="133" />
+            <state relative-caret-position="1658">
+              <caret line="257" column="122" selection-start-line="257" selection-start-column="122" selection-end-line="257" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -447,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="125" column="133" selection-start-line="125" selection-start-column="133" selection-end-line="125" selection-end-column="133" />
+        <state relative-caret-position="1658">
+          <caret line="257" column="122" selection-start-line="257" selection-start-column="122" selection-end-line="257" selection-end-column="122" />
           <folding />
         </state>
       </provider>
