@@ -102,44 +102,63 @@
 
  <div class="container">
  
-    <form class="col s12">
-	
-      <div class="row mt-5 wow">
-	  
-        <div class="input-field col s6">
+	<form class="col mt-5">
+		<div class="form-group mt-5">
+			<label for="exampleInputEmail1" class="bmd-label-floating">Recipe Name</label>
+			<input type="email" class="form-control" id="exampleInputEmail1">
+			<small class="text-muted">Be creative!</small>
+		</div>
 		
-          <input id="recipename" type="text" class="validate">
-          <label for="recipename">Recipe Name</label>
-		  
-        </div>
+		<div class="form-group mt-5">
+			<label for="exampleInputEmail1" class="bmd-label-floating">Description</label>
+			<input type="email" class="form-control" id="exampleInputEmail1">
+			<small class="text-muted">Keep it short and sweet.</small>
+		</div>
+		 
+		<div class="form-group mt-5">
+			<label for="exampleTextarea" class="bmd-label-floating">Ingredients</label>
+			<textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+			<small class="text-muted">What's it made of?</small>
+			
+		</div>
 		
-        <div class="input-field col s6">
-          <p>
-			<input type="checkbox" id="healthy" />
-			<label for="healthy">Healthy</label>
-		</p>
-        </div>
-      </div>
-	  
-      <div class="row mt-5 wow">
-          <div class="input-field col s12">
-            <textarea><id="textarea1" class="materialize-textarea" data-length="120"></textarea>
-            <label for="textarea1">Ingredient List</label>
-          </div>
-        </div>
-	  
-      <div class="row mt-5 wow">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
-      </div>
-	  
-    </form>
+		<div class="form-group mt-5">
+			<label for="exampleInputFile" class="bmd-label-floating">Image</label>
+			<input type="file" class="form-control-file" id="exampleInputFile">
+			<small class="text-muted">Show off your creation.</small>
+		</div>
+		
+		<div class="form-group mt-5">
+			<label for="exampleSelect1" class="bmd-label-floating">Example select</label>
+			<select class="form-control" id="exampleSelect1">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+		</div>
+		
+		<div class="radio">
+			<label>
+			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			Option one is this and that&mdash;be sure to include why it's great
+			</label>
+		</div>
+
+		<div class="checkbox mt-5">
+			<label>
+				<input type="checkbox"> Check me out
+			</label>
+		</div>
+
+	<button type="submit" class="btn btn-primary btn-raised mt-5">Submit</button>
 	
- </div>
+</form>
+	
+	</div>
   
- </body>
+</body>
  
- </html>
+</html>
  
