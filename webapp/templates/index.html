@@ -122,8 +122,8 @@
                             <h4 class="card-title dark-grey-text"><strong>Card title</strong></h4>
                             <!--Text-->
                             <p class="card-text">Description Box 1.</p>
-                            <input type="button" id="button1up"  value="Upvote" class="btn btn-primary btn-md ml-2" onclick="clickEvent();" />
-                            <input type="button" id="button1down"  value="Downvote" class="btn btn-primary btn-md ml-2" onclick="clickEvent();" />
+                            <input type="button" id="button1up"  value="Upvote" class="btn btn-primary btn-md ml-2" onclick="clickEvent('button1up', 1);" />
+                            <input type="button" id="button1down"  value="Downvote" class="btn btn-primary btn-md ml-2" onclick="clickEvent('button1down', 1);" />
                         </div>
 
                     </div>
@@ -453,9 +453,19 @@
         new WOW().init();
     </script>
 <script type="text/javascript">
-function clickEvent(){
-    document.getElementById("button2").onclick = clickEvent;
-    alert('hello');
+var array = [0,0,0,0,0,0,0,0,0];
+
+function clickEvent(button_name, index){
+	if (button_name.slice(-1) == "n"){
+		array[index] -= 1;
+	}
+	else{
+		array[index] += 1;
+	}
+	var d = array[index];
+	var str = d.toString();
+	alert(str);
+
 };
 </script>
 </body>
