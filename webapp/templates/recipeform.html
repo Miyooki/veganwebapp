@@ -56,6 +56,50 @@
 
 </head>
 
+<body>
+
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-inverse navbar-light">
+            <div class="container">
+                <a class="navbar-brand blue-text font-bold" href="../">Veganize</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link ml-4" href="../">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dark-grey-text ml-3" href="../recipeform">Submit</a>
+                        </li>
+						<li class="nav-item">
+							<a class="nav-link dark-grey-text ml-3" href="../signup">Sign Up</a>
+						</li>
+                        <li class="nav-item btn-group">
+                            <a class="nav-link dropdown-toggle dark-grey-text ml-3" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Dropdown
+                            </a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+    </header>
+
  <div class="container">
  
     <form class="col s12">
@@ -64,23 +108,25 @@
 	  
         <div class="input-field col s6">
 		
-          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-          <label for="first_name">Recipe Name</label>
+          <input id="recipename" type="text" class="validate">
+          <label for="recipename">Recipe Name</label>
 		  
         </div>
 		
         <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
+          <p>
+			<input type="checkbox" id="healthy" />
+			<label for="healthy">Healthy</label>
+		</p>
         </div>
       </div>
 	  
       <div class="row mt-5 wow">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
+          <div class="input-field col s12">
+            <textarea><id="textarea1" class="materialize-textarea" data-length="120"></textarea>
+            <label for="textarea1">Ingredient List</label>
+          </div>
         </div>
-      </div>
 	  
       <div class="row mt-5 wow">
         <div class="input-field col s12">
@@ -90,4 +136,10 @@
       </div>
 	  
     </form>
-  </div>
+	
+ </div>
+  
+ </body>
+ 
+ </html>
+ 
