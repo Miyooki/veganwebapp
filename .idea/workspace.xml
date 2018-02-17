@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef1d537-6a0a-483f-a8ba-d56592b7ce73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/static/img/vegan/r_Asian-Sesame-Zucchini-Noodles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/static/img/vegan/r_Chipotle-and-Lime Burrito.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/static/img/vegan/r_Lentil-Mushroom Meatballs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/static/img/vegan/r_Quinoa Stuffed Peppers.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/static/img/vegan/r_Vegan Autumn Burger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/static/img/vegan/r_Vegan Burger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/static/img/vegan/r_Vegan Pad Thai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/static/img/vegan/r_loaded-guacamole-tacos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/static/img/vegan/r_raw vegan pizza With Red Pepper Flax Crust.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/static/img/pizza/pizzav_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/templates/home.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/templates/index.html" afterPath="$PROJECT_DIR$/webapp/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/templates/recipeform.html" afterPath="$PROJECT_DIR$/webapp/templates/recipeform.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/templates/signup.html" afterPath="$PROJECT_DIR$/webapp/templates/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/views.py" afterPath="$PROJECT_DIR$/webapp/views.py" />
     </list>
     <ignored path="veganwebapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="519" column="0" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="509" column="6" selection-start-line="509" selection-start-column="6" selection-end-line="509" selection-end-column="6" />
               <folding>
                 <element signature="e#15809#15816#0" expanded="true" />
                 <element signature="e#16865#16872#0" expanded="true" />
@@ -514,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="519" column="0" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
+        <state relative-caret-position="462">
+          <caret line="509" column="6" selection-start-line="509" selection-start-column="6" selection-end-line="509" selection-end-column="6" />
           <folding>
             <element signature="e#15809#15816#0" expanded="true" />
             <element signature="e#16865#16872#0" expanded="true" />
