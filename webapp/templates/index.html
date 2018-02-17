@@ -56,7 +56,7 @@
 
 </head>
 
-<body>
+<body ng-app="my_app">
 
     <header>
         <!--Navbar-->
@@ -91,8 +91,8 @@
                             </div>
                         </li>
                     </ul>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <form ng-controller= "search-ctrl" class="form-inline">
+                        <input my-enter="any_func()" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="search-box">
                     </form>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                     <div class="card mb-r">
 
                         <!--Card image-->
-                        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/74.jpg" alt="Card image cap">
+                        <img class="img-fluid" id="card1" src="https://mdbootstrap.com/img/Photos/Others/images/74.jpg" alt="Card image cap">
 
                         <!--Card content-->
                         <div class="card-body">
@@ -449,9 +449,11 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
 
-    <script>
-        new WOW().init();
-    </script>
+    <script type="text/javascript" src="static/angular.js"> </script>
+    <script type="text/javascript" src="static/app_js/app.js"></script>
+    <!--<script>-->
+        <!--new WOW().init();-->
+    <!--</script>-->
 <script type="text/javascript">
 var array = [0,0,0,0,0,0,0,0,0];
 

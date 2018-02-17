@@ -16,7 +16,7 @@ app.controller('search-ctrl',
 };
     $scope.ping_bing = function()
     {
-        search_term = "meatball vegetarian";
+        search_term = document.getElementById('search-box').value;
         subscription_key = "00be766d06054f6a8ee8830c9fce513c";
         $http.get('https://api.cognitive.microsoft.com/bing/v7.0/images/search', {
             headers: {
@@ -31,7 +31,14 @@ app.controller('search-ctrl',
             $scope.greeting = response.data;
             console.log("make dat req");
             console.log(response);
+            console.log(response.data.value[0].contentUrl);
+
+            //for each one, change the picture
+            document.getElementById("card1").src=response.data.value[0].contentUrl;
+
         });
+
+
     }
 
 }]);
