@@ -10,3 +10,6 @@ def index(request):
 
 def signup(request):
     return render(request, "signup.html", {'content':['This is the sign up page!','Sign up placeholder.']} )
+
+def submit(request):
+	return render(request, "recipeform.html")
