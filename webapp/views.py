@@ -9,6 +9,7 @@ def index(request):
     return render(request, "index.html")
 
 def signup(request):
+    return render(request, "signup.html")
 
 def submit(request):
 	return render(request, "recipeform.html")
