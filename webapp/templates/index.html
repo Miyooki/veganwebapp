@@ -101,10 +101,10 @@
     </header>
 
     <main>
-	
+
         <!--Main layout-->
         <div class="container">
-			   
+
             <!--First row-->
             <div class="row mt-5 wow">
                 <!--First column-->
@@ -124,6 +124,18 @@
                             <p class="card-text">Description Box 1.</p>
                             <a href="#" class="btn btn-primary btn-md ml-2">Upvote</a>
 							<a href="#" class="btn btn-primary btn-md ml-3">Downvote</a>
+                            <script type="text/javascript">
+                                function httpGetAsync(, callback)
+                                {
+                                    var xmlHttp = new XMLHttpRequest();
+                                    xmlHttp.onreadystatechange = function() {
+                                        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                                            callback(xmlHttp.responseText);
+                                    }
+                                    xmlHttp.open("GET", , true); // true for asynchronous
+                                    xmlHttp.send(null);
+                                }
+                            </script>
                         </div>
 
                     </div>
@@ -183,7 +195,7 @@
                 <!--/.Third column-->
             </div>
             <!--/.First row-->
-			
+
 
             <!--Second row-->
             <div class="row mt-4 wow">
@@ -265,7 +277,7 @@
                 <!--/.Third column-->
             </div>
             <!--/.Second row-->
-			
+
 			<!--Third row-->
             <div class="row mt-5 wow">
                 <!--First column-->
@@ -344,7 +356,7 @@
                 <!--/.Third column-->
             </div>
             <!--/.Third row-->
-            
+
             <hr>
 
             <!--Pagination-->
@@ -421,7 +433,7 @@
             </div>
         </div>
         <!--/.Footer links-->
-		
+
         <hr>
 
         <!--Copyright-->
