@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Veganize</title>
+    <title>Create an account</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -69,7 +69,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link ml-4" href="../">Home
                                 <span class="sr-only">(current)</span>
                             </a>
@@ -77,19 +77,10 @@
                         <li class="nav-item">
                             <a class="nav-link dark-grey-text ml-3" href="../recipeform">Submit</a>
                         </li>
-						<li class="nav-item">
+						<li class="nav-item active">
 							<a class="nav-link dark-grey-text ml-3" href="../signup">Sign Up</a>
 						</li>
-                        <li class="nav-item btn-group">
-                            <a class="nav-link dropdown-toggle dark-grey-text ml-3" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">Dropdown
-                            </a>
-                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
+                        
                     </ul>
                     <form class="form-inline">
                         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -100,28 +91,40 @@
         <!--/.Navbar-->
 		
 <main>
-	
-	<div class="container mt-5">
+
+<div class="container mt-5">
 		
-		<form>
+	<form class="col mt-5">
   <div class="form-group mt-5">
-    <label for="exampleInputEmail1" class="bmd-label-floating">Username</label>
-    <input type="email" class="form-control" id="exampleInputEmail1">
+    <label for="exampleInputUsername" class="bmd-label-floating">Username</label>
+    <input type="text" class="form-control" id="exampleInputUsername">
+	<small class="text-muted">Be whoever you want to be.</small>
   </div>
   
   <div class="form-group mt-5">
-    <label for="exampleInputPassword1" class="bmd-label-floating">Email</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <label for="exampleInputEmail" class="bmd-label-floating">Email</label>
+    <input type="email" class="form-control" id="exampleEmail">
+	<small class="text-muted">Don't worry, we won't spam you.</small>
   </div>
   
   <div class="form-group mt-5">
-    <label for="exampleInputPassword1" class="bmd-label-floating">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <label for="exampleInputPassword" class="bmd-label-floating">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword">
+	<small class="text-muted">Choose something other than "password".</small>
   </div>
- 
-  
- 
-  <button type="submit" class="btn btn-success btn-raised">Register</button>
+	
+  <div class="form-group mt-5">
+    <label for="exampleSelect1" class="bmd-label-floating">How did you find out about us?</label>
+		<select class="form-control" id="exampleSelect1">
+			<option>Friends or family</option>
+			<option>Online advertisements</option>
+			<option>Random web search</option>
+			<option>Prefer not to answer</option>
+		</select>
+	<small class="text-muted">We are just curious :).</small>
+  </div>
+	
+  <button type="submit" class="btn btn-success btn-raised mt-5">Register</button>
 </form>
 
 
