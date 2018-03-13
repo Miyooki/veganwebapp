@@ -178,7 +178,7 @@
 
                             <input type="button" id="button3up"  value="Upvote" class="btn btn-success btn-md ml-1" onclick="clickEvent('up', 2);" />
 							<input type="button" id="button3down"  value="Downvote" class="btn btn-success btn-md ml-1" onclick="clickEvent('down', 2);" />
-							
+
                             <input type ="button" class="btn btn-success btn-md ml-1" value="0" id="count3" disabled width="50" />
 
                         </div>
@@ -496,10 +496,16 @@
 
 <script type="text/javascript">
 
+<<<<<<< HEAD
 if (localStorage.getItem("list") == null ){
 	window.localStorage["list"] = JSON.stringify([0,0,0,0,0,0,0,0,0])
 }
 
+=======
+if (localStorage.getItem("list") === null){
+    window.localStorage["list"] = JSON.stringify([0,0,0,0,0,0,0,0,0]);
+}
+>>>>>>> 24c932227818991764c46c9cb9de2c17b2c5e83c
 function clickEvent(button_name, index){
     var array = JSON.parse(window.localStorage["list"])
 	if (button_name.slice(-1) == "n"){
